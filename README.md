@@ -4,7 +4,7 @@
 
 ### package queue contains the core queuing service, it exposes two functions
 - time stamps are time.Duration values since start of queuing service, can be replaced by absolute timestamps
-- configurable wait time has been left out (consumers wait for a second when they have nothing to read)
+- configurable wait time has been left out (dequeuing services wait for a second when they have nothing to read)
 
 ### package consumer contains an endpoint to receive info from dequeuing services at port 8000
 
