@@ -6,7 +6,7 @@
 - time stamps are time.Duration values since start of queuing service, can be replaced by absolute timestamps
 - configurable wait time has been left out (consumers wait for a second when they have nothing to read)
 
-### package consumer contains an endpoint to receive info from dequeuing services
+### package consumer contains an endpoint to receive info from dequeuing services at port 8000
 
 ### unit tests are omitted due to lack of time, the modules have been checked using "go race -run"
 

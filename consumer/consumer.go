@@ -32,6 +32,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		fmt.Printf("%v\n", string(body))
 	}
 	if r.Method == http.MethodGet {
-		w.Write([]byte(strconv.Itoa(int(counter))))
+		w.Write([]byte("Received " + strconv.Itoa(int(counter)) + " requests"))
 	}
 }
